@@ -134,7 +134,7 @@ const MainApp: React.FC = () => {
         <header className="w-full max-w-7xl mb-8 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <LogoIcon className="h-8 w-8 text-purple-400" />
-            <h1 className="text-2xl font-bold tracking-tight text-white">NoxSub</h1>
+            <h1 className="text-2xl font-bold tracking-tight text-white">NoxMedia</h1>
           </div>
           <nav className="flex gap-4">
             <Link to="/" className="text-slate-300 hover:text-purple-400 transition-colors">Home</Link>
