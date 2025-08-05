@@ -15,8 +15,7 @@ import {
     Smartphone,
     MonitorCheck,
     Target,
-    ListChecks,
-    Handshake
+    ListChecks
 } from 'lucide-react';
 
 // Configurações e dados
@@ -337,7 +336,7 @@ const ContentGrid = () => (
 
 const HelpSection = () => (
     <section className="mb-20">
-        <InfoSection icon={Handshake} title="Como Você Pode Ajudar">
+        <InfoSection icon={Users} title="Como Você Pode Ajudar">
             <p className="text-slate-300 leading-relaxed">
                 Você pode contribuir de várias formas: doando, divulgando o projeto, enviando feedbacks ou colaborando com código e documentação no GitHub. Toda ajuda é bem-vinda!
             </p>
@@ -455,4 +454,4 @@ const AboutPage = () => {
     );
 };
 
-export default AboutPage
+export default AboutPageexport default AboutPage
