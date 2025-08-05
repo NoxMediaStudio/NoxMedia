@@ -1,0 +1,12 @@
+﻿services:
+  - type: web
+    name: noxmedia-frontend
+    env: static
+    staticPublishPath: dist
+    buildCommand: npm run build
+    
+    # Redirecionamento para SPA (React Router)
+    routes:
+      - type: rewrite
+        source: /(.*)
+        destination: /index.html
