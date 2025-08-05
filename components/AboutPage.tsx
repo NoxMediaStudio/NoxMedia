@@ -454,4 +454,4 @@ const AboutPage = () => {
     );
 };
 
-export default AboutPageexport default AboutPage
+export default AboutPage
