@@ -1,4 +1,4 @@
-﻿import { defineConfig } from 'vite';
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
@@ -7,6 +7,6 @@ export default defineConfig({
     host: '0.0.0.0'
   },
   preview: {
-    allowedHosts: ['noxv1.onrender.com']
+    allowedHosts: ['noxv1.onrender.com', 'noxmedia.onrender.com']
   }
 });
