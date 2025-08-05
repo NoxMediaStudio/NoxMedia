@@ -166,8 +166,12 @@ Adoramos contribuições da comunidade! Aqui está como você pode ajudar:
 
 ### 💻 Contribuir com Código (Frontend)
 1. **Fork** o repositório
-2. **Clone** seu fork localmentegit clone https://github.com/seu-usuario/NoxMedia.git3. **Crie uma branch** para sua featuregit checkout -b feature/minha-nova-feature4. **Implemente melhorias** na interface (componentes, UX, responsividade)
-5. **Commit** suas mudançasgit commit -m "feat: melhora componente X da interface"6. **Push** para seu forkgit push origin feature/minha-nova-feature7. **Abra um Pull Request** no repositório original
+2. **Clone** seu fork localmentegit clone https://github.com/seu-usuario/NoxMedia.git
+3. **Crie uma branch** para sua featuregit checkout -b feature/minha-nova-feature
+4. **Implemente melhorias** na interface (componentes, UX, responsividade)
+5. **Commit** suas mudançasgit commit -m "feat: melhora componente X da interface"
+6. **Push** para seu forkgit push origin feature/minha-nova-feature
+7. **Abra um Pull Request** no repositório original
 
 > **🔔 Importante**: Este repositório aceita apenas contribuições relacionadas ao **frontend**. Para contribuições de backend, aguarde a abertura do repositório da API.
 
@@ -234,7 +238,7 @@ Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](L
 | 💬 [Discord](https://discord.com/invite/VG5hmeGbbj) | Tempo real | Chat da comunidade + updates do backend |
 | 📧 [Email](mailto:suporte@noxmedia.studio) | 24-48h | Suporte técnico do frontend |
 | 🐛 [GitHub Issues](https://github.com/PhilippeBoechat/NoxMedia/issues) | 2-7 dias | Bugs da interface e sugestões |
-| 📚 [Documentação](https://docs.noxmedia.studio) | Instantâneo | Guias do frontend |
+| 🐛 [Demo](https://noxmedia.onrender.com) |
 
 ### 🌟 Conecte-se Conosco
 
