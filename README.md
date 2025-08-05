@@ -1,9 +1,10 @@
-﻿# 🎬 NoxMedia Studio
+﻿# 🎬 NoxMedia Studio Frontend
 
 <div align="center">
   
-**A plataforma completa para democratizar a acessibilidade de vídeos**
+**Interface moderna para a plataforma de legendas automáticas e suporte**
 
+[![Frontend Only](https://img.shields.io/badge/Frontend%20Only-🚧-orange)](https://github.com/PhilippeBoechat/NoxMedia)
 [![Open Source](https://img.shields.io/badge/Open%20Source-💚-success)](https://github.com/PhilippeBoechat/NoxMedia)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react)](https://reactjs.org/)
@@ -16,46 +17,71 @@
 
 ---
 
+## ⚠️ **IMPORTANTE - Status do Projeto**
+
+> **🚧 Este repositório contém APENAS o FRONTEND da aplicação NoxMedia Studio**
+> 
+> **📋 Status Atual:**
+> - ✅ **Frontend**: Interface 85% completa e funcional
+> - 💬 **Sistema de chat com painel administrativo funcional (85%)**
+> - 🚧 **Backend**: Em desenvolvimento ativo (API, IA, processamento de vídeo)
+> - 🚧 **Integração**: Algumas funcionalidades simuladas com dados mock
+> 
+> **🔄 O que funciona agora:**
+> - Sistema de chat com painel administrativo (tickets, mensagens, quick replies, fluxo de atendimento)
+> - Interface completa e responsiva
+> - Navegação entre todas as telas
+> - Demonstração visual de funcionalidades avançadas
+> - Sistema de estado local (LocalStorage)
+> 
+> **⏳ Em desenvolvimento (Backend):**
+> - Processamento real de vídeos
+> - IA para geração automática de legendas
+> - Base de dados persistente
+
+---
+
 ## ✨ Sobre o Projeto
 
-**NoxMedia Studio** é uma plataforma moderna e intuitiva que combina **gerenciamento inteligente de tickets de suporte** com **edição automática de legendas de vídeo** alimentada por IA. Nossa missão é tornar a criação de conteúdo acessível **gratuita, rápida e profissional** para criadores, empresas e organizações.
+**NoxMedia Studio Frontend** é a interface moderna e intuitiva da plataforma que **combina** gerenciamento inteligente de tickets de suporte com edição automática de legendas de vídeo alimentada por IA. Este repositório contém **apenas a interface do usuário**, com o backend ainda em desenvolvimento ativo.
 
 ### 🎯 Por que NoxMedia?
 
-- **🤖 IA Integrada**: Legendas automáticas com precisão profissional
-- **⚡ Performance**: Interface ultrarrápida construída com Vite + React
-- **🎨 UX Moderna**: Design responsivo e experiência mobile-first
-- **🔓 100% Gratuito**: Open source com licença permissiva
-- **🌍 Acessibilidade**: Democratizando o acesso a conteúdo audiovisual
+- **🎨 Interface Moderna**: Design responsivo e experiência mobile-first
+- **💬 Chat e Painel Funcionais**: Sistema de chat com tickets, quick replies e painel administrativo já operacionais
+- **⚡ Performance**: Construído com Vite + React para máxima velocidade
+- **🔓 100% Open Source**: Frontend completo com licença permissiva
+- **🚧 Em Desenvolvimento**: Backend com IA avançada sendo finalizado
+- **🌍 Visão de Futuro**: Democratizando acessibilidade audiovisual
 
 ---
 
-## 🚀 Funcionalidades Principais
+## 🤖 Como este projeto foi desenvolvido
 
-### 🎬 **Editor de Legendas Avançado**
-- **Upload inteligente** de vídeos (MP4, AVI, MOV, WebM)
-- **Geração automática** de legendas com IA de última geração
-- **Editor visual** com timeline sincronizada
-- **Exportação múltipla** (SRT, VTT, TXT, JSON)
-- **Preview em tempo real** com player integrado
+Todo o projeto foi desenvolvido com o auxílio de ferramentas de Inteligência Artificial e IDEs modernas:
 
-### 🎧 **Sistema de Suporte Inteligente**
-- **Chatbot com IA** para atendimento 24/7
-- **Tickets organizados** por prioridade e categoria
-- **Dashboard administrativo** com métricas em tempo real
-- **Notificações push** e atualizações automáticas
-- **Histórico completo** de interações
+- **GitHub Copilot**
+- **ChatGPT (OpenAI)**
+- **Claude AI (Anthropic)**
+- **Google AI Studio (Gemini)**
+- **Visual Studio e Visual Studio Code**
 
-### 📊 **Painel Administrativo**
-- **Análises detalhadas** de uso e performance
-- **Gerenciamento de usuários** e permissões
-- **Estatísticas em tempo real** com gráficos interativos
-- **Controle de qualidade** de atendimento
-- **Relatórios exportáveis** (PDF, Excel)
+Essas ferramentas aceleraram o desenvolvimento, trouxeram sugestões inteligentes de código, revisão automática e otimização de fluxos, tornando o NoxMedia Studio um exemplo de integração entre criatividade humana e IA.
 
 ---
 
-## 🛠️ Stack Tecnológica
+## 🎭 Funcionalidades do Frontend
+
+- **Chatbot inteligente**: Responde dúvidas, guia o usuário e encaminha para atendimento humano.
+- **Painel administrativo de tickets**: Criação, acompanhamento e finalização de tickets de suporte.
+- **Admin Panel**: Visualização de estatísticas, controle de tickets e status de atendentes.
+- **Edição de legendas**: Upload de vídeos, geração automática de legendas, edição visual e exportação (SRT, VTT, TXT) *(em breve)*.
+- **UX moderna**: Layout responsivo, rolagem automática, quick replies, atalhos de teclado e experiência mobile-friendly.
+- **Open Source**: Código aberto, permissivo e pronto para colaboração.
+
+---
+
+## 🛠️ Stack Tecnológica (Frontend)
 
 <div align="center">
 
@@ -65,8 +91,7 @@
 
 </div>
 
-### Principais Dependências
-```json
+### Frontend Dependencies
 {
   "react": "^18.2.0",
   "typescript": "^5.2.2",
@@ -74,8 +99,12 @@
   "tailwindcss": "^3.4.0",
   "lucide-react": "^0.263.1"
 }
-```
-
+### 🔄 Backend Stack (Em Desenvolvimento)
+🚧 Node.js + Express/Fastify
+🚧 PostgreSQL/MongoDB 
+🚧 Python + OpenAI/Whisper (IA)
+🚧 Redis (Cache)
+🚧 Docker + Kubernetes
 ---
 
 ## ⚡ Instalação Rápida
@@ -87,39 +116,21 @@
 
 ### Passos de Instalação
 
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/PhilippeBoechat/NoxMedia.git
-   cd NoxMedia
-   ```
-
-2. **Instale as dependências**
-   ```bash
-   npm install
-   # ou
-   yarn install
-   ```
-
-3. **Execute em modo desenvolvimento**
-   ```bash
-   npm run dev
-   # ou
+1. **Clone o repositório**git clone https://github.com/PhilippeBoechat/NoxMedia.git
+cd NoxMedia
+2. **Instale as dependências**npm install
+# ou
+yarn install
+3. **Execute em modo desenvolvimento**npm run dev
+# ou
    yarn dev
-   ```
+4. **Explore a demo do frontend**🎭 http://localhost:5173
+> **💡 Dica**: O sistema de chat e painel já está funcional. Outras funcionalidades avançadas são demonstrações até a integração completa com o backend.
 
-4. **Acesse a aplicação**
-   ```
-   🌐 http://localhost:5173
-   ```
-
-### Scripts Disponíveis
-```bash
-npm run dev      # Servidor de desenvolvimento
+### Scripts Disponíveisnpm run dev      # Servidor de desenvolvimento
 npm run build    # Build para produção
 npm run preview  # Preview do build
 npm run type-check # Verificação de tipos TypeScript
-```
-
 ---
 
 ## 🌐 Deploy em Produção
@@ -153,55 +164,38 @@ Adoramos contribuições da comunidade! Aqui está como você pode ajudar:
 2. Descreva detalhadamente sua ideia
 3. Explique como beneficiaria os usuários
 
-### 💻 Contribuir com Código
+### 💻 Contribuir com Código (Frontend)
 1. **Fork** o repositório
-2. **Clone** seu fork localmente
-   ```bash
-   git clone https://github.com/seu-usuario/NoxMedia.git
-   ```
-3. **Crie uma branch** para sua feature
-   ```bash
-   git checkout -b feature/minha-nova-feature
-   ```
-4. **Commit** suas mudanças
-   ```bash
-   git commit -m "feat: adiciona nova funcionalidade X"
-   ```
-5. **Push** para seu fork
-   ```bash
-   git push origin feature/minha-nova-feature
-   ```
-6. **Abra um Pull Request** no repositório original
+2. **Clone** seu fork localmentegit clone https://github.com/seu-usuario/NoxMedia.git3. **Crie uma branch** para sua featuregit checkout -b feature/minha-nova-feature4. **Implemente melhorias** na interface (componentes, UX, responsividade)
+5. **Commit** suas mudançasgit commit -m "feat: melhora componente X da interface"6. **Push** para seu forkgit push origin feature/minha-nova-feature7. **Abra um Pull Request** no repositório original
+
+> **🔔 Importante**: Este repositório aceita apenas contribuições relacionadas ao **frontend**. Para contribuições de backend, aguarde a abertura do repositório da API.
 
 ### 📋 Padrões de Commit
-Utilizamos [Conventional Commits](https://www.conventionalcommits.org/):
-```
-feat: nova funcionalidade
+Utilizamos [Conventional Commits](https://www.conventionalcommits.org/):feat: nova funcionalidade
 fix: correção de bug
 docs: atualização de documentação
 style: formatação/estilo
 refactor: refatoração de código
 test: adição de testes
 chore: tarefas de manutenção
-```
-
 ---
 
 ## 📈 Roadmap
 
 ### 🎯 Próximas Features (Q1 2025)
-- [ ] **API REST completa** para integração externa
-- [ ] **Plugin para WordPress** e editores populares
-- [ ] **Suporte a mais idiomas** (50+ línguas)
-- [ ] **Templates de legendas** pré-configurados
-- [ ] **Colaboração em tempo real** para equipes
+- [ ] **🔧 Backend completo** - API REST + IA para legendas
+- [ ] **🤖 Integração real com IA** para processamento de vídeo
+- [ ] **🔐 Sistema de autenticação** e gerenciamento de usuários
+- [ ] **📊 Base de dados persistente** (PostgreSQL/MongoDB)
+- [ ] **🚀 Deploy em produção** com frontend + backend integrados
 
-### 🚀 Visão de Longo Prazo
+### 🚀 Visão de Longo Prazo (Backend Concluído)
+- [ ] **Plugin para WordPress** e editores populares
+- [ ] **Suporte a mais idiomas** (50+ línguas) 
 - [ ] **Mobile App** (React Native)
 - [ ] **Integração com YouTube/Vimeo** automática
-- [ ] **IA ainda mais avançada** para contexto e emoções
 - [ ] **Marketplace de templates** da comunidade
-- [ ] **Análise de sentimentos** em legendas
 
 ---
 
@@ -237,10 +231,10 @@ Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](L
 
 | Canal | Resposta | Descrição |
 |-------|----------|-----------|
-| 💬 [Discord](https://discord.com/invite/VG5hmeGbbj) | Tempo real | Chat da comunidade |
-| 📧 [Email](mailto:suporte@noxmedia.studio) | 24-48h | Suporte técnico |
-| 🐛 [GitHub Issues](https://github.com/PhilippeBoechat/NoxMedia/issues) | 2-7 dias | Bugs e features |
-| 📚 [Documentação](https://docs.noxmedia.studio) | Instantâneo | Guias e tutoriais |
+| 💬 [Discord](https://discord.com/invite/VG5hmeGbbj) | Tempo real | Chat da comunidade + updates do backend |
+| 📧 [Email](mailto:suporte@noxmedia.studio) | 24-48h | Suporte técnico do frontend |
+| 🐛 [GitHub Issues](https://github.com/PhilippeBoechat/NoxMedia/issues) | 2-7 dias | Bugs da interface e sugestões |
+| 📚 [Documentação](https://docs.noxmedia.studio) | Instantâneo | Guias do frontend |
 
 ### 🌟 Conecte-se Conosco
 
@@ -256,10 +250,10 @@ Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](L
 
 <div align="center">
 
-**🎬 NoxMedia Studio** — Democratizando a acessibilidade de vídeos com tecnologia aberta
+**🎬 NoxMedia Studio Frontend** — Interface moderna para democratizar acessibilidade de vídeos
 
-*Feito com* 💙 *pela comunidade, para a comunidade*
+*Frontend feito com* 💙 *pela comunidade • Backend em desenvolvimento ativo* 🚧
 
-⭐ **Gostou do projeto? Deixe uma estrela no GitHub!** ⭐
+⭐ **Gostou da interface? Deixe uma estrela e acompanhe o desenvolvimento do backend!** ⭐
 
 </div>
