@@ -8,9 +8,9 @@ import {
     Coffee,
     Zap,
     Globe,
+    Award,
     MessageCircle,
     Rocket,
-    MessageCircleMore,
     Workflow,
     Smartphone,
     MonitorCheck,
@@ -61,13 +61,13 @@ const ROADMAP_DATA = [
         id: 1,
         title: "Sistema de ChatBot",
         description: "Adição do Painel Admin",
-        progress: 90,
+        progress: 80,
         status: "in-progress" as const,
-        icon: MessageCircleMore
+        icon: MessageCircle
     },
     {
         id: 2,
-        title: "Backend Completo",
+        title: "Backend",
         description: "Finalizando APIs e integrações",
         progress: 70,
         status: "in-progress" as const,
