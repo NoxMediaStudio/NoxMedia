@@ -441,8 +441,8 @@ const AboutPage = () => {
     }, []);
 
     return (
-        <div className="min-h-screen relative" style={{ backgroundColor: '#0F101A' }}>
-            <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="min-h-screen flex flex-col relative" style={{ backgroundColor: '#0F101A' }}>
+            <div className="flex-1 flex flex-col max-w-6xl mx-auto px-6 py-16 w-full">
                 <HeroSection isVisible={isVisible} />
                 <StatsSection stars={stars} />
                 <ContentGrid />
